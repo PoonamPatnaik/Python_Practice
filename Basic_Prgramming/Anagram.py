@@ -14,7 +14,7 @@ def verify_anagram(str1, str2):
 def  check_commonString(str1,str2):
      common_set ={}
      common_set = (set(str1)).intersection (set(str2))
-     print common_set
+     print (common_set)
      set_str1 = set(str1) - common_set
      set_str2 = set(str2) - common_set
      return common_set,set_str1,set_str2
