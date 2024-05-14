@@ -1,8 +1,11 @@
+
 name = input("Enter the Name")
 print("Actual name is :" + name)
-len_strg = len(name)
-
-print(len_strg)
+r_name = ""
+for char in name:
+    print(char)
+    r_name = char+r_name
+print("Reversed string is "+r_name)
 def rev_str(len_strg):
     rev_name = ""
     for i in range(len_strg):
@@ -24,3 +27,5 @@ def rev_string_m(str_len):
     return rev_name
 reversed_nname = rev_string_m(new_len_strg)
 print("reverse name is: " + reversed_nname)
+
+
