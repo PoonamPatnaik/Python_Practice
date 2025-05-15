@@ -11,7 +11,7 @@ def verify_anagram(str1, str2):
             #print ("Total character to be deleted is : "+ count)
 
 
-def check_commonString(str1,str2):
+def check_commonString(str1,str2):  
      common_set ={}
      common_set = (set(str1)).intersection (set(str2))
      print (common_set)
